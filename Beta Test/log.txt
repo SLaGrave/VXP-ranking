@@ -49,3 +49,4 @@ recordGame(['brady', 'nathan'],[['sam', 'david', 'abby']],masterList,1,2,3,1,gam
 recordGame(['david', 'nathan'],[['sam', 'brady', 'abby']],masterList,1,2,3,1,gameName='Secret Hitler')
 recordGame(['nate', 'jeremy'],[['sam', 'brady', 'nathan', 'david']],masterList,1,2,3,1,gameName='Secret Hitler')
 recordGame(['dustin'],[['dryden'], ['eric'], ['mady']],masterList,1,2,2,1,gameName='Sushi Go')
+recordGame(['hamilton'],[['charlie'], ['john'], ['brady']],masterList,3,4,2,6,gameName='Dominare')
