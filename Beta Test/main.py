@@ -1,6 +1,6 @@
 # Virgin indeX Point system
 import json
-from src.functions import addPlayer, recordGame, printRanks
+from src.functions import addPlayer, recordGame, printRanks, verify
 
 # Variable definitions
 masterList = {}
@@ -18,11 +18,11 @@ f.close()
 # recordGame(["winner"], [["loser1", "loser2"], ["loser3"], ["loser4"]], masterList, 1, 1, 1, 1, "title")
 
 
-
 ##################################################
 # Code above here
 
 printRanks(masterList)
+verify(masterList)
 
 # JSON masterList saveb
 f = open("masterList.txt", "w")

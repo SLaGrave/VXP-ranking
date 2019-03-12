@@ -80,3 +80,11 @@ def printRanks(myDict):
     for r in sorted_d:
         print(r, myDict[r])
     print("=====================================================================================")
+
+def verify(l):
+    print("No. of players: " + str(len(l)))
+    total = 0
+    for k, v in l.items():
+        total += v
+    print("Total of all points: " + str(total))
+    print("=====================================================================================")

@@ -50,3 +50,6 @@ recordGame(['david', 'nathan'],[['sam', 'brady', 'abby']],masterList,1,2,3,1,gam
 recordGame(['nate', 'jeremy'],[['sam', 'brady', 'nathan', 'david']],masterList,1,2,3,1,gameName='Secret Hitler')
 recordGame(['dustin'],[['dryden'], ['eric'], ['mady']],masterList,1,2,2,1,gameName='Sushi Go')
 recordGame(['hamilton'],[['charlie'], ['john'], ['brady']],masterList,3,4,2,6,gameName='Dominare')
+recordGame(['casey'],[['zach']],masterList,4,4,2,3,gameName='Castles of Mad King Ludwig')
+recordGame(['casey'],[['zach']],masterList,4,4,2,2,gameName='Castles of Mad King Ludwig')
+recordGame(['jeremy'],[['sam'], ['david'], ['max']],masterList,3,4,3,6,gameName='Blood Rage')
