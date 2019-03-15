@@ -1,6 +1,6 @@
-# Virgin indeX Point system
+# Virgin Experience Points
 import json
-from src.functions import addPlayer, recordGame, printRanks, verify
+from src.functions import addPlayer, recordGameManual, printRanks, verify
 
 # Variable definitions
 masterList = {}
@@ -15,7 +15,9 @@ f.close()
 ##################################################
 # Examples:
 # addPlayer("name", masterList)
-# recordGame(["winner"], [["loser1", "loser2"], ["loser3"], ["loser4"]], masterList, 1, 1, 1, 1, "title")
+# recordGameManual(["winner"], [["loser1", "loser2"], ["loser3"], ["loser4"]], masterList, 1, 1, 1, 1, "title")
+
+
 
 
 ##################################################
