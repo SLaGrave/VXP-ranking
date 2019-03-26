@@ -1,6 +1,6 @@
 # Functions used in the main.py file
 
-from gameList import scores
+from src.gameList import scores
 
 def addPlayer(name, listToAddTo):
     if name in listToAddTo:
